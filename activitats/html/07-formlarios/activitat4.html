@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>activitat4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
     
+    <select name="camara">
+        <option value="" aria-label="camara" disabled selected>¿Cual camara quieres comprar?</option>
+        <option value="0">Cámara DSLR o Réflex</option>
+        <option value="1">Cámara bridge</option>
+        <option value="2">Cámara compacta</option>
+        <option value="3">Cámara Mirroless</option>
+        <option value="4">Cámara de acción</option>
+        <option value="5">Cámara 360º</option>
+    </select>
+
+
+    <button type="submit">
+        Comprar
+    </button>    
 </body>
 </html>
