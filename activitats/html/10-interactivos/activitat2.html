@@ -6,15 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <label>smartphones:
+    <label>Marca de smartphones:
         <input list="smartphones " type="text" name="tiposdemovil">
     </label>
     <datalist id="smartphones ">
-        <option value="iPhone 15"></option>
-        <option value="Samsung Galaxy A34"></option>
-        <option value="Redmi Note 12"></option>
-        <option value="Realme C55"></option>
-        <option value="Motorola Edge 40"></option>
+        <option value="Apple"></option>
+        <option value="Samsung"></option>
+        <option value="Xiaomi"></option>
+        <option value="Hawei"></option>
+        <option value="Motorola"></option>
+        <option value="Oppo"></option>
+        <option value="Realme"></option>
+        <option value="Honor"></option>
     </datalist>
+    <form action="/action_page.php">
+        <label for="cars">Preu dels smartphones:</label>
+        <select name="cars" id="cars">
+          <option value="Apple">1500$</option>
+          <option value="Samsung">656$</option>
+          <option value="Xiaomi">312$</option>
+          <option value="Hawei">574$</option>
+          <option value="Motorola">299$</option>
+          <option value="Oppo">219$</option>
+          <option value="Realme">299$</option>
+          <option value="Honor">300$</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 </html>
