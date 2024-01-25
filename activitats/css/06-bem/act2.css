@@ -1,9 +1,8 @@
 .buscador { 
     font-size: 50px; 
     font-weight: 400; 
-    color: white; 
+    color: black; 
  }
  .botton{
-    size: 10px;
-    
+    padding: 10px 20px;
  }
