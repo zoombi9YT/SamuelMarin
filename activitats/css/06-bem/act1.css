@@ -1,3 +1,13 @@
-.header{
-    
+header{
+    height:10%;
+    width:100%;
+    color:white;
+}
+
+.logo{
+    text-align:left;
+}
+td.cont{
+    text-align:right;
+    font-size:40px;
 }
