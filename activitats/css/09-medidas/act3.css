@@ -1,0 +1,5 @@
+.bloqueo{
+    background-color: green;
+    max-height: 10rem;
+    min-height: 5rem;
+}
