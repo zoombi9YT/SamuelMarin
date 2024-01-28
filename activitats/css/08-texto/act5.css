@@ -1,0 +1,10 @@
+.estilo1{
+    font-style: italic;
+}
+.estilo2{
+    text-transform: uppercase;
+}
+.estilo3{
+    font-style: italic;
+    background-color: yellow;
+}

@@ -1,0 +1,12 @@
+.espacio{
+    letter-spacing: 1.2rem;
+}
+.espa{
+    letter-spacing:0.5rem;
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+.jus{
+    text-align: justify-all;
+}
