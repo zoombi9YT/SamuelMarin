@@ -1,0 +1,73 @@
+.mensaje1{
+background: #db4646;
+width: 300px; 
+height: 85px; 
+border-radius: 10px;
+padding: 10px 10px;
+margin-left: 350px;
+
+}
+.hora{
+    margin-left: 125px;
+
+}
+.fotoesq{
+    aspect-ratio: 1/1; 
+    width: 50px;
+    height: 50px;  
+    border-radius: 30px;
+    float:left;
+    object-fit:cover;
+    object-position: left;
+
+}
+.mensaje2{
+        background: #db4646;
+        width: 300px; 
+        height: 95px; 
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-left: 750px;
+}
+.mensaje3{
+background: #db4646;
+width: 300px; 
+height: 105px; 
+border-radius: 10px;
+padding: 10px 10px;
+margin-left: 350px;
+}
+.mensaje4{
+    background: #db4646;
+    width: 300px; 
+    height: 95px; 
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 750px;
+}
+.mensaje5{
+    background: #db4646;
+width: 300px; 
+height: 105px; 
+border-radius: 10px;
+padding: 10px 10px;
+margin-left: 350px;
+}
+.mensaje6{
+    background: #db4646;
+    width: 300px; 
+    height: 95px; 
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 750px;
+}
+.mensaje7{
+    
+    background: #db4646;
+    width: 300px; 
+    height: 105px; 
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 350px;
+    
+}
