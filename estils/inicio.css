@@ -32,8 +32,10 @@ a {
 .final {
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 40px 40px;
+    Margin: 0px;
+    Width: 100%;
     margin-left: 0px;
 
 }
