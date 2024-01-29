@@ -6,13 +6,6 @@ body {
     margin-left: 0px;
 }
 
-.fotofondo{
-    background-image: url('../imatges/fotoinicio.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 .header {
     background-color: #333;
     color: white;
@@ -30,13 +23,13 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 25px;
     text-align: right;
 
 }
 .titulo {
-    color: aliceblue;
+    color: black;
     font-size: 8rem;
     bottom: 0;
     display: block;
