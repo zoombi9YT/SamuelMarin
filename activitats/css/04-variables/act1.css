@@ -1,0 +1,5 @@
+.h1{
+    --color-naranja: #D95B43;
+    color: var(--color-naranja);
+    border: 2px solid var(--color-naranja);
+}
