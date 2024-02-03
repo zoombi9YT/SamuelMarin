@@ -1,0 +1,17 @@
+.estilo1{
+    background-color: #BBBAB9;
+    margin-bottom: 6%;
+}
+
+.raya{
+ text-decoration: underline;
+}
+
+button{
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid black;
+    outline-offset: 3px;
+  }
