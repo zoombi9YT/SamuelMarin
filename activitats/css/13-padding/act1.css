@@ -1,0 +1,48 @@
+body{
+    background-color: #fbeeca;
+}
+.container {
+    width: 60%; 
+    margin: auto; 
+}
+h1{
+    font-size: 55px;
+}
+.text {
+    float: left;
+    width: 60%; 
+    align-items: center; 
+}
+
+.image {
+    float: right; 
+    width: 40%;
+    height: 40%;
+}
+
+.button-blue {
+    background-color: #4C55A4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-transparent {
+    color: #4C55A4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #8893FB;
+    color: black;
+    text-align: center;
+    padding: 40px 40px;
+    Margin: 0px;
+    Width: 100%;
+    margin-left: 0px;
+    position:relative;
+    margin-top: 14%;
+    font-size: 31px;
+}
