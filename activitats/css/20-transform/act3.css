@@ -1,26 +1,21 @@
-.circulo-container {
-    position: relative;
-  }
-
-  .rojo-circulo, .azul-circulo {
+.circulo-rojo, .circulo-azul {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     position: absolute;
     top: 0;
     transition: left 0.3s ease-in-out;
-  }
-
-  .rojo-circulo {
+}
+.circulo-rojo {
     background-color: #e74c3c;
     left: 0;
-  }
+}
 
-  .azul-circulo {
-    background-color: rgba(52, 152, 219, 0.5); /* Color azul con 0.5 de transparencia */
+.circulo-azul {
+    background-color: rgba(52, 152, 219, 0.5); 
     left: 350px;
-  }
+}
 
-  .azul-circulo:hover {
+.circulo-azul:hover {
     left: 0;
-  }
+}
