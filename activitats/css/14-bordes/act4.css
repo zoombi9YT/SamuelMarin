@@ -1,0 +1,5 @@
+.bordes{
+    border: 15px solid ;
+    padding: 1%;
+    border-image: linear-gradient(#00FDF2, #FD0000)1;
+}
