@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .noria {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    animation: rotateNoria 10s infinite linear;
+  }
+
+  .cabina {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  background-color: yellow;
+    background-size: cover;
+    transform-origin: 100% 290%;
+  }
+
+  .cabina:nth-child(2) {
+    transform: rotate(45deg);
+  }
+
+  .cabina:nth-child(3) {
+    transform: rotate(90deg);
+  }
+
+  .cabina:nth-child(4) {
+    transform: rotate(135deg);
+  }
+
+  .cabina:nth-child(5) {
+    transform: rotate(180deg);
+  }
+
+  .cabina:nth-child(6) {
+    transform: rotate(225deg);
+  }
+
+  .cabina:nth-child(7) {
+    transform: rotate(270deg);
+  }
+
+  .cabina:nth-child(8) {
+    transform: rotate(315deg);
+  }
+
+  @keyframes rotateNoria {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
