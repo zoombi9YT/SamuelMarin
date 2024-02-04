@@ -1,16 +1,4 @@
-table {
-    width: 100%;
-    overflow-x: auto;
-    display: block;
-  }
-
-  th, td {
-    padding: 10px;
-    text-align: left;
-  }
-
-  tbody {
-    display: block;
-    max-height: 200px; 
-    overflow-y: auto;
-  }
+table{
+  overflow: scroll;
+  font-size: 40px;
+}
